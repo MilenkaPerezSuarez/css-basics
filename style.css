@@ -1,0 +1,39 @@
+body{background-color: #000000;
+color: white;
+font-family: "montserrat";
+}
+/*esta clase pertenece a la barra de navegacion*/
+.siri {
+    position: fixed;
+    height: 50%;
+    width: 120px;
+    background-color: rgb(0, 0, 0);
+    font-size: 12px;
+}
+
+#main {
+    margin-left: 140px;
+}
+/*este estilo pertenece a la barra de navegacion */
+.sidebar-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+/*esto es para cambiar de color cuando el mouse esta encima del boton*/
+.sidebar-item:hover {
+    background-color: cadetblue;
+}
+a:visited { text-decoration: none;}
+a{ text-decoration: none;}
+/*esto es el titulo de la pagina*/
+header {
+text-align: center;
+}
+#header-image {
+    max-width: 80%;
+    height: auto;
+}
